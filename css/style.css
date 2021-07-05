@@ -1,0 +1,70 @@
+/* common css start */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.container-flex{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+/* common css end */
+
+/* nav css :start */
+#navbar{
+    background: #f2f3fe;
+    padding: 0 20px;
+}
+#navbar .logo{
+    width: 18%;
+}
+#navbar .logo h1{
+    font-size: 35px;
+    color:#36414F;
+}
+#navbar .logo h1 span{
+    color:#11AFA0 !important;
+}
+#navbar .nav-item{
+    width: 62%;
+}
+
+#navbar .nav-item ul{
+    margin-top: 40px;
+}
+#navbar .nav-item ul li{
+    display: inline-block;
+}
+#navbar .nav-item ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:#36414F;
+    padding: 0 15px;
+}
+#navbar .nav-item ul li a.active{
+    color:#11AFA0;
+}
+#navbar .nav-btn{
+    width: 20%;
+    margin-top: 28px;
+}
+#navbar .nav-btn a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color:#fff;
+    background: rgb(17, 175, 160, .8);
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+/* nav css :end */
