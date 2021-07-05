@@ -19,6 +19,7 @@ body{
 #navbar{
     background: #f2f3fe;
     padding: 0 20px;
+    margin-bottom: 120px;
 }
 #navbar .logo{
     width: 18%;
@@ -65,6 +66,70 @@ body{
     color:#fff;
     background: rgb(17, 175, 160, .8);
     padding: 10px 30px;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 /* nav css :end */
+
+/* banner css :start */
+
+#banner{
+    margin-bottom: 120px;
+}
+#banner .banner-left{
+    width: 46%;
+    margin: 0 2%;
+}
+#banner .banner-left h4{
+    text-transform: capitalize;
+    color:#11AFA0;
+    margin-bottom: -10px;
+}
+#banner .banner-left h1{
+    color:#36414F;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-top: -26px;
+}
+#banner .banner-left h1 span{
+    color:#11AFA0 !important;
+}
+#banner .banner-left p{
+    text-transform: capitalize;
+    color:#36414F;
+    margin-top: -30px;
+}
+#banner .banner-left p::first-letter{
+    font-size: 30px;
+    color:#11AFA0;
+}
+#banner .banner-left a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color:#fff;
+    background: rgb(17, 175, 160, .8);
+    padding: 10px 45px;
+    border-radius: 40px;
+    margin-top: 50px;
+    background: linear-gradient(rgb(17, 175, 160, .8), rgb(0, 255, 128, .7));
+}
+.banner-right{
+    width: 46%;
+    /* border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ; */
+}
+.banner-right .banner-img{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    border: 15px solid #D1F3E5;
+    border-radius: 5px;
+}
+.banner-right .banner-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* banner css :end */
